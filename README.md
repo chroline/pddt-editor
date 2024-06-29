@@ -12,6 +12,20 @@ GUI Editor for Prompt-Driven Decision Trees (PDDTs)
 
 </div>
 
+## Overview
+
+The PDDT Editor is a graphical user interface for creating and managing Prompt-Driven Decision Trees (PDDTs). PDDTs combine the interpretability of classical machine learning methods with the adaptability of large language models, enabling new AI workflows and reducing development time and complexity.
+
+This GUI editor (available at `/editor`) is built on top using Next.js, React Flow, and Redis (Vercel KV). Each decision node, in addition to resources and the head prompt, is stored as a key as a key-value pair in the database. This allows for blazing fast read times at each step in the tree.
+
+To test the PDDT you developed, a playground is also available at `/playground` that allows for the visualization of each decision made for different inputs.
+
+## Features
+
+- **Intuitive GUI**: Easily create and manage PDDTs through a user-friendly interface.
+- **Integration with LLMs**: Leverage the power of large language models at each decision node.
+- **Export and Import**: Seamlessly export and/or import previously created PDDTs.
+
 ## Getting Started
 
 1. [Clone this repository.](https://github.com/new?template_name=pddt-editor&template_owner=chroline)
