@@ -11,3 +11,10 @@ GUI Editor for Prompt-Driven Decision Trees (PDDTs)
 [![chat](https://img.shields.io/badge/chat-discussions-success?style=for-the-badge)](https://github.com/chroline/pddt-editor/discussions)
 
 </div>
+
+## Getting Started
+
+1. [Clone this repository.](https://github.com/new?template_name=pddt-editor&template_owner=chroline)
+2. Deploy your repository to Vercel.
+3. [Create a new KV database on Vercel](https://vercel.com/docs/storage/vercel-kv/quickstart#create-a-kv-database)
+4. Fill in the required environment variables (follow `.env.example` template).
