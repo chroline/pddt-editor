@@ -1,30 +1,13 @@
-# React + TypeScript + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# PDDT Editor
 
-Currently, two official plugins are available:
+GUI Editor for Prompt-Driven Decision Trees (PDDTs)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[![youtube](https://img.shields.io/badge/watch%20the%20walkthrough-%20?style=for-the-badge&logo=youtube&color=red)](https://github.com/chroline/pddt-editor)
+[![substack](https://img.shields.io/badge/read%20the%20blog%20post-%20?style=for-the-badge&logo=substack&color=gray)](https://github.com/chroline/pddt-editor)
 
-## Expanding the ESLint configuration
+![GitHub License](https://img.shields.io/github/license/chroline/pddt-editor?style=for-the-badge&color=blue)
+[![chat](https://img.shields.io/badge/chat-discussions-success?style=for-the-badge)](https://github.com/chroline/pddt-editor/discussions)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+</div>
