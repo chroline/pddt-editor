@@ -16,5 +16,22 @@ GUI Editor for Prompt-Driven Decision Trees (PDDTs)
 
 1. [Clone this repository.](https://github.com/new?template_name=pddt-editor&template_owner=chroline)
 2. Deploy your repository to Vercel.
-3. [Create a new KV database on Vercel](https://vercel.com/docs/storage/vercel-kv/quickstart#create-a-kv-database)
+3. [Create a new KV database on Vercel.](https://vercel.com/docs/storage/vercel-kv/quickstart#create-a-kv-database)
 4. Fill in the required environment variables (follow `.env.example` template).
+
+## Contributing
+We welcome contributions from the community! If you'd like to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes and commit them (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a Pull Request.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Contact
+
+If you have any questions or feedback, feel free to reach out to me at [mailto:colegawin@gmail.com](colegawin@gmail.com).
