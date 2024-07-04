@@ -92,7 +92,7 @@ async function getAIResponse(fullPrompt: string): Promise<any> {
       Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
     },
     body: JSON.stringify({
-      model: "gpt-3.5-turbo-0125",
+      model: "gpt-4o",
       temperature: 0,
       messages: [{ role: "system", content: fullPrompt }],
     }),
